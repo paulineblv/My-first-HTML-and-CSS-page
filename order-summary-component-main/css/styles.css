@@ -1,0 +1,132 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 25px;
+    margin: 40px auto 20px auto;
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.background {
+    position: relative;
+
+}
+
+.corps {
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 0px 20px 20px hsl(224, 23%, 55%);
+}
+
+.illustration {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.annual {
+    height: 85px;
+    width: 375px;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+.annual-plan {
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    top: 410px;
+    left: 140px;
+}
+
+.prix {
+    position: absolute;
+    top: 430px;
+    left: 140px;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
+    left: 125px;
+    bottom: -30px;
+    
+}
+
+.change:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.p-principal {
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 1.5;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    letter-spacing: 1px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px hsl(225, 100%, 94%);
+}
+
+.payment:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    padding: 20px 0 30px 0;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+#music-icon {
+    position: absolute;
+    top: 420px;
+    left: 60px;
+}
+
